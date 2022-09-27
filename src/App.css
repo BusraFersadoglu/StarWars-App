@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+/* Navgitaion Bar */
+.nav{
+    width: 100%;
+    height: 4rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 2rem;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Search Components */
+.title{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+input{
+    width: 60%;
+    height: 3rem;
+    margin: 1rem 0 1rem 1rem;
+    padding: .5rem;
+    box-sizing: border-box;
+    border: none;
+    outline: 0;
+    font-size: 1.3rem;
+    
+}
+.search-icon{
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    background-color: #FEE122;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Card Component */
+
+.card{
+    background-color: lightgray;
+    box-sizing: border-box;
+    margin: 2rem;
+    padding: 1rem;
+    width: 30%;
+    height: 30rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Home Page */
 
-.App-link {
-  color: #61dafb;
+.home{
+    height: calc(100vh - 4rem);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home img{
+    width: 40rem;
 }
