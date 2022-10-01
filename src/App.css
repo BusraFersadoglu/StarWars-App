@@ -79,6 +79,7 @@ a {
   margin: 4rem;
   padding: 0 1rem;
   width: 25%;
+  min-width: 22rem;
   height: 15rem;
   border-radius: 2rem;
   display: flex;
