@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
 import axios from "axios";
 
+//Import components
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import StarshipsDetail from "./pages/StarshipsDetail";
