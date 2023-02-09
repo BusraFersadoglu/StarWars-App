@@ -10,6 +10,8 @@ In this app, you can access the spaceships in the Star Wars universe.
 
 You can search for spaceships by name or model, and when you click, you can find detailed information.
 
+Project Link: https://star-wars-app-five.vercel.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
